@@ -1,0 +1,29 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from osis_inscription_evaluation_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from osis_inscription_evaluation_sdk.model.accepted_language_enum import AcceptedLanguageEnum
+from osis_inscription_evaluation_sdk.model.choix_inscriptions_etudiant import ChoixInscriptionsEtudiant
+from osis_inscription_evaluation_sdk.model.contact_faculte import ContactFaculte
+from osis_inscription_evaluation_sdk.model.error import Error
+from osis_inscription_evaluation_sdk.model.etudiant import Etudiant
+from osis_inscription_evaluation_sdk.model.formation import Formation
+from osis_inscription_evaluation_sdk.model.inscription_evaluation import InscriptionEvaluation
+from osis_inscription_evaluation_sdk.model.inscription_formation import InscriptionFormation
+from osis_inscription_evaluation_sdk.model.mes_formations import MesFormations
+from osis_inscription_evaluation_sdk.model.mon_formulaire_inscription_evaluations import MonFormulaireInscriptionEvaluations
+from osis_inscription_evaluation_sdk.model.mon_formulaire_inscription_evaluations_inscriptions import MonFormulaireInscriptionEvaluationsInscriptions
+from osis_inscription_evaluation_sdk.model.mon_formulaire_inscription_evaluations_note_finale import MonFormulaireInscriptionEvaluationsNoteFinale
+from osis_inscription_evaluation_sdk.model.periode_inscription import PeriodeInscription
+from osis_inscription_evaluation_sdk.model.recapitulatif import Recapitulatif
+from osis_inscription_evaluation_sdk.model.recapitulatif_inscriptions import RecapitulatifInscriptions
+from osis_inscription_evaluation_sdk.model.recapitulatif_unite_enseignement import RecapitulatifUniteEnseignement
+from osis_inscription_evaluation_sdk.model.session_de_travail import SessionDeTravail
+from osis_inscription_evaluation_sdk.model.type_inscription_evaluation_enum import TypeInscriptionEvaluationEnum
